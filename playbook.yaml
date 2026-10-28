@@ -1,6 +1,6 @@
 - name: ping demo
- hosts: local host
- connection:local
- tasks:
- -name: ping local host
-  ping:
+  hosts: localhost
+  connection: local
+  tasks:
+  - name: ping localhost
+    ping:
