@@ -1,0 +1,19 @@
+<student>
+    <firstname>mounika </firstname>
+    <lastname>mukka </lastname>
+    <DOB> 25 Aug 1989 </DOB>
+    <addresss> 
+       <address1>
+          address type= present
+          1/34
+          sadaramangala 
+      </address1>
+       <address2>
+          address type= permanent 
+          tirupathi
+          1/34
+
+          </address2>
+          </addresss>      
+
+ </student>
