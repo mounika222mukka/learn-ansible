@@ -2,7 +2,7 @@
   hosts: local
   connection: last
   tasks:
-  - print names
+  - name: print names
     debug:
       msg: "Hi {{item}}"
     loop:
