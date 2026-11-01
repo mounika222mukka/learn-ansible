@@ -4,4 +4,4 @@
   tasks: 
   - name: print the name
     debug:
-      msg: "Hi, {{person_name: {{default(Mounika)}"
+      msg: "Hi, {{person_name: default(Mounika)}"
