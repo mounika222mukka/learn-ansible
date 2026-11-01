@@ -1,6 +1,6 @@
 - name: variables from files
   hosts: local
-  connections: local
+  connection: local
   tasks: 
   - name: print course info
     debug:
