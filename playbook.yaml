@@ -1,6 +1,8 @@
+---
 - name: ping demo
-  hosts: local
+  hosts: localhost #targetting ansible local host#
   connection: local
-  tasks:
+  tasks:  # tasks= module/ Collections
   - name: ping localhost
     ping:
+  
