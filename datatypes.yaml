@@ -1,0 +1,21 @@
+- name: Course information
+  hosts: local
+  connection: local
+  vars:
+   course: "AIops with DevOps on AWS"
+   Duration_in_hours: 150
+   Is_Live_Sessions: true
+   Topics: 
+   - linux
+   - shell
+   - ansible
+   - terraform
+   more_details:
+     trainer: SIva
+     months: 4
+
+   tasks:
+   - name: print info and type
+     debug:
+       msg: "{{Course}} : {{course | type_debug}} "
+
