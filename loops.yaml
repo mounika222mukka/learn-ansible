@@ -1,6 +1,6 @@
 - name: demo on loops
   hosts: local
-  connection: last
+  connection: local
   tasks:
   - name: print names
     debug:
