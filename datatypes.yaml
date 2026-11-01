@@ -17,5 +17,5 @@
   tasks:
   - name: print info and type
     debug:
-      msg: "{{Course}} : {{course | type_debug}} "
+      msg: "{{course}} : {{course | type_debug}} "
 
