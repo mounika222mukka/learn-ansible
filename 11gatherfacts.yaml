@@ -5,3 +5,7 @@
   - name: print the facts
     debug: 
       msg: "gather {{ansible_facts}}"
+  - name: print some info
+    debug:
+      msg: 
+        OS_family: {{OS_family['OS_family'] }}
