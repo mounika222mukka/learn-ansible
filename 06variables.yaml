@@ -6,7 +6,7 @@
   tasks:
   - name: print the vars
     debug: 
-    msg: "I got {{property}} from my father"
+      msg: "I got {{property}} from my father"
   - name: print the vars again 
   vars: 
    property: "10 acres"
