@@ -8,9 +8,9 @@
     debug: 
       msg: "I got {{property}} from my father"
   - name: print the vars again 
-  vars: 
-   property: "10 acres"
-   debug:
-     msg: "I got {{property}} from my father"
+    vars: 
+    property: "10 acres"
+    debug:
+      msg: "I got {{property}} from my father"
 
   
