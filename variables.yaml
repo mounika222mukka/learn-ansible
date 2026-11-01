@@ -1,0 +1,12 @@
+- name: deom on variables 
+  hosts: local
+  connection: local
+  vars:
+   course: ansible
+   trainer: Siva
+   skill: Devops 
+  tasks:  
+   - name: pring the vars
+     debug:
+      msg: "Hi, I'm learing {{couse}} from {{trainer}} and his skill is {{Devops}}"
+      
