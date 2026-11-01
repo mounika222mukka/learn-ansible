@@ -1,11 +1,13 @@
-- name : gather facts
+- name: Demo on gathering facts
   hosts: local
   connection: local
-  tasks: 
-  - name: print the facts
-    debug: 
-      msg: "gather {{ansible_facts}}"
-  - name: print some info
-    debug:
-      msg: 
-        OS_family: {{OS_family['OS_family'] }}
+
+  tasks:
+    - name: Print OS information
+      debug:
+        msg:
+          OS_family: "{{ ansible_facts['os_family'] }}"
+          Distribution: "{{ ansible_facts['distribution'] }}"
+          Version: "{{ ansible_facts['distribution_version'] }}"
+          Architecture: "{{ ansible_facts['architecture'] }}"
+          Hostname: "{{ ansible_facts['hostname'] }}"
