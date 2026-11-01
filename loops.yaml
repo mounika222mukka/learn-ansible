@@ -1,11 +1,18 @@
 - name: demo on loops
   hosts: local
   connection: local
+  become: yes
+  vars:
+   packages:
+   - nginx
+   - mysql
+   - git
+   - htop
+   - net-tools
   tasks:
-  - name: print names
-    debug:
-      msg: "Hi {{item}}"
-    loop:
-    - Mounika
-    - Niranjan
-    - Sashtra  
+  - name: install packages
+    package:
+      name: "{{item}}"
+      state: present
+    loop: packages
+    
