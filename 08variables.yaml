@@ -1,0 +1,6 @@
+-name: Variables from files
+hosts: frontend
+tasks:
+- name: "print the variables"
+  debug:
+    msg: "Hi, I'm learning {{course}} from {{trainer}}, duraion is {{duraion}}"
