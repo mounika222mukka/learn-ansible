@@ -4,13 +4,13 @@
   vars:
    property: "100 acres"
   tasks:
-   debug: 
+  debug: 
     msg: "I got {{property}} from my father"
 - name: print the vars again 
   vars: 
    property: "10 acres"
   tasks: 
-   debug:
+  debug:
      msg: "I got {{property}} from my father"
 
   
