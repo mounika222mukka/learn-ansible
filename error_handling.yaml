@@ -1,0 +1,7 @@
+- name: create user
+  hosts: local
+  connection: local
+  become:yes
+  tasks:
+  - name: check Robosop user exist or not
+    command: id Robosop 
