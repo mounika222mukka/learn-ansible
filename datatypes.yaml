@@ -18,4 +18,8 @@
   - name: print info and type
     debug:
       msg: "{{course}} : {{course | type_debug}} "
+      duration: "{{Duration_in_hours }} : {{Duration_in_hours | type_debug}}"
+      is Is_Live_Sessions: "{{Is_Live_Sessions}} : {{Is_Live_Sessions | type_debug}}"
+      Topics: "{{ topics}} : {{topics : type_debug}}"
+      more_details: "{{more_details}} : {{more_details |type_debug}}"
 
