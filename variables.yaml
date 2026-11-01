@@ -8,5 +8,5 @@
   tasks:  
    - name: pring the vars
      debug:
-      msg: "Hi, I'm learing {{course}} from {{trainer}} and his skill is {{Devops}}"
+      msg: "Hi, I'm learing {{course}} from {{trainer}} and his skill is {{skill}}"
       
