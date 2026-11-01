@@ -14,8 +14,8 @@
      trainer: SIva
      months: 4
 
-   tasks:
-   - name: print info and type
-     debug:
-       msg: "{{Course}} : {{course | type_debug}} "
+  tasks:
+  - name: print info and type
+    debug:
+      msg: "{{Course}} : {{course | type_debug}} "
 
