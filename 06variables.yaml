@@ -1,5 +1,5 @@
 - name: demo on task level variables 
-  hosts: host
+  hosts: local
   connection: local
   vars:
    property: "100 acres"
