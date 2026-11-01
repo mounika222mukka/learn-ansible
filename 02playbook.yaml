@@ -5,17 +5,17 @@
   tasks:  # tasks= module/ Collections
   - name: msg from PLAY1 and PLAY2
     debug:
-     msg: "Hello from PLAY1 and PLAY2
+      msg: "Hello from PLAY1 and PLAY2"
   - name: msg from playbook
     debug: 
-     msg: "Hello from PLAYBOOK"
+      msg: "Hello from PLAYBOOK"
 - name: PLAY2
   hosts: local
   connection: local
   tasks:
   - name: "Hello from PLAY2"
     debug:
-     msg: "Hello from PLAY1 and PLAY2
+      msg: "Hello from PLAY1 and PLAY2"
   - name: msg from playbook
     debug:
       msg: "print playbook"
