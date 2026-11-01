@@ -3,7 +3,7 @@
   connection: local
   vars:
    given_number: 10
-  task:
+  tasks:
   - name: is even
     debug:
       msg: "given_number : {{ given_number}} is odd"
