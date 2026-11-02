@@ -1,0 +1,8 @@
+- name: Create user
+  hosts: local
+  connection: local
+  become: yes
+  tasks:
+  - name: create user
+    user:
+      name: Roboshop # add Roboshop user
