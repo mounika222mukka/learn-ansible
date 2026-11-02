@@ -12,7 +12,8 @@
       msg: " {{ec2_User_output}} "
 
   - name: get the files
-    command: ls -l > /tmp/files.txt
+    #command: ls -l > /tmp/files.txt
+    shell: ls -l > /tmp/files.txt
     register: output.txt
   - name: Print the output
     debug:
